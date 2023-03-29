@@ -1,13 +1,13 @@
-import { Container } from './style.js';
-import {Header} from '../../components/Header'
-import { Button } from '../../components/Button';
-
+import { Container } from "./style.js";
+import { Header } from "../../components/Header";
+import { Button } from "../../components/Button";
 
 export function Details() {
-    return (
-        <Container>
-            <Header/>
-            <Button title="Login" loading />
-        </Container>
-    )
+  return (
+    <Container>
+      <Header />
+
+
+    </Container>
+  );
 }
